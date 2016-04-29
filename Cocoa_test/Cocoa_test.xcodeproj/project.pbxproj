@@ -13,6 +13,7 @@
 		00DB75B81CD3368800D2F9CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DB75B61CD3368800D2F9CA /* Main.storyboard */; };
 		00DB75BA1CD3368800D2F9CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DB75B91CD3368800D2F9CA /* Assets.xcassets */; };
 		00DB75BD1CD3368800D2F9CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DB75BB1CD3368800D2F9CA /* LaunchScreen.storyboard */; };
+		00DB75C61CD33B9000D2F9CA /* aaaa.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DB75C51CD33B9000D2F9CA /* aaaa.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		00DB75B91CD3368800D2F9CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00DB75BC1CD3368800D2F9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00DB75BE1CD3368800D2F9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00DB75C41CD33B9000D2F9CA /* aaaa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaaa.h; sourceTree = "<group>"; };
+		00DB75C51CD33B9000D2F9CA /* aaaa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aaaa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				00DB75BB1CD3368800D2F9CA /* LaunchScreen.storyboard */,
 				00DB75BE1CD3368800D2F9CA /* Info.plist */,
 				00DB75AD1CD3368800D2F9CA /* Supporting Files */,
+				00DB75C41CD33B9000D2F9CA /* aaaa.h */,
+				00DB75C51CD33B9000D2F9CA /* aaaa.m */,
 			);
 			path = Cocoa_test;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00DB75B51CD3368800D2F9CA /* ViewController.m in Sources */,
+				00DB75C61CD33B9000D2F9CA /* aaaa.m in Sources */,
 				00DB75B21CD3368800D2F9CA /* AppDelegate.m in Sources */,
 				00DB75AF1CD3368800D2F9CA /* main.m in Sources */,
 			);
@@ -302,6 +308,7 @@
 				00DB75C31CD3368800D2F9CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
